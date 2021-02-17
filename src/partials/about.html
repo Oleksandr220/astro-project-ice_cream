@@ -2,6 +2,25 @@
   <div class="about-conteiner">
     <p class="about-label">tradition and love</p>
     <h3 class="about-title">how it’s made?</h3>
+    <picture>
+      <source srcset="
+        ./src/images/desktop/about/cow-milk.png 1x, 
+        ./src/images/desktop/about/cow-milk@2x.png 2x"  
+        media="(min-width: 1200px)" />
+      <source srcset="
+        ./src/images/tablet/about/cow-milk.png 1x, 
+        ./src/images/tablet/about/cow-milk@2x.png 2x" 
+        media="(min-width: 768px)" />
+      <source srcset="
+        ./src/images/mobile/about/cow-milk.png 1x, 
+        ./src/images/mobile/about/cow-milk@2x.png 2x" 
+        media="(max-width: 767px)" />
+      <img srcset=" 
+        ./src/images/mobile/about/cow-milk.png 1x, 
+        ./src/images/mobile/about/cow-milk@2x.png 2x" 
+        src="./src/images/mobile/about/cow-milk.png"
+        alt="Коровка с молочком">
+    </picture>
     <div class="conteiner-eco">
       <p class="about-products">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem
         eget, egestas eros.
