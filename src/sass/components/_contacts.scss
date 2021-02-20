@@ -31,12 +31,6 @@
     }
   }
 }
-/* .milk-spray {
-  display: none;
-  @media screen and (min-width: 1200px) {
-    display: block;
-  } 
-}*/
 .shop-card.container {
   background-color: #fff;
   box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
@@ -259,6 +253,11 @@
 .franchise {
   color: #d41343;
   background-color: #fff;
+
+  &:hover,
+  &:focus {
+    background-color: #ECEBEB;
+  }
 
   @media screen and (min-width: 768px) {
     margin-right: 0;
