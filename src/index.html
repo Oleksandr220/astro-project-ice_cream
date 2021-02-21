@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
     <title>Заголовок страницы</title>
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/hero-header.html"></include>
+    <include src="./partials/header.html"></include>
+    <include src="./partials/hero.html"></include>
+    <!-- Секция №3  -->
+    <include src="./partials/products.html"></include>
     <include src="./partials/products.html"></include>
     <include src="./partials/about.html"></include>
     <include src="./partials/advantages.html"></include>
@@ -15,6 +19,7 @@
     <include src="./partials/reviews.html"></include>
     <include src="./partials/contacts.html"></include>
     <include src="./partials/footer.html"></include>
+    <include src="./partials/back-drop-franshize.html"></include>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
@@ -32,6 +37,7 @@
       };
       setup('schedule');
       setup('menu');
+      setup('franshize');
     </script>
   </body>
 </html>

@@ -10,8 +10,10 @@
 @import './utils/breakpoints';
 @import './utils/variables';
 @import './utils/hidden';
+@import './components/header';
+@import './components/hero';
+@import './utils/colors';
 @import './components/body';
-@import './components/hero-header';
 @import './components/products';
 @import './components/about';
 @import './components/gallery';
@@ -19,3 +21,5 @@
 @import './components/advantages';
 @import './components/contacts';
 @import './components/footer';
+@import './components/back-drop-franshise';
+
