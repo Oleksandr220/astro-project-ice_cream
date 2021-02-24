@@ -135,6 +135,8 @@ setup('schedule');
 setup('menu');
 setup('franshize');
 setup('location');
+setup('header-modal');
+setup('mobile');
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -163,7 +165,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60515" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57562" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
